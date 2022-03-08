@@ -140,4 +140,4 @@ function delay(delayInms) {
  });
 }
 
-client.login(config.TOKEN);
+client.login(process.env.BOT_TOKEN);
